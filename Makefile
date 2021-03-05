@@ -1,4 +1,4 @@
-OUT = xtitle
+OUT = bspwm-xtitle
 VERCMD  ?= git describe --tags 2> /dev/null
 VERSION := $(shell $(VERCMD) || cat VERSION)
 

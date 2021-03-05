@@ -13,7 +13,7 @@
 #include <xcb/xcb_event.h>
 #include <xcb/xcb_ewmh.h>
 #include <xcb/xcb_icccm.h>
-#include "xtitle.h"
+#include "bspwm-xtitle.h"
 
 int main(int argc, char *argv[])
 {
@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 	while ((opt = getopt(argc, argv, "hvseif:t:")) != -1) {
 		switch (opt) {
 			case 'h':
-				printf("xtitle [-h|-v|-s|-e|-i|-f FORMAT|-t NUMBER] [WID ...]\n");
+				printf("bspwm-xtitle [-h|-v|-s|-e|-i|-f FORMAT|-t NUMBER] [WID ...]\n");
 				goto end;
 				break;
 			case 'v':

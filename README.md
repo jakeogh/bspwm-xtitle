@@ -2,7 +2,7 @@
 If arguments are given, outputs the title of each arguments, otherwise outputs the title of the active window and continue to output it as it changes if the *snoop* mode is on.
 
 # Synopsis
-	xtitle [-h|-v|-s|-e|-i|-f FORMAT|-t NUMBER] [WID ...]
+	bspwm-xtitle [-h|-v|-s|-e|-i|-f FORMAT|-t NUMBER] [WID ...]
 
 # Options
 - `-h` — Print the synopsis to standard output and exit.

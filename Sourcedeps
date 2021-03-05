@@ -1,1 +1,1 @@
-xtitle.o: xtitle.c xtitle.h
+bspwm-xtitle.o: bspwm-xtitle.c bspwm-xtitle.h
